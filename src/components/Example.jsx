@@ -12,7 +12,7 @@ export const Example = () => {
     <>
       <OrbitControls />
       <mesh ref={mesh}>
-        <boxBufferGeometry />
+        <boxGeometry />
         <meshNormalMaterial />
       </mesh>
     </>
